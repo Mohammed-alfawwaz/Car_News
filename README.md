@@ -16,7 +16,8 @@ Car (News - gallery) is an application for hobbyists and those interested in the
 3- videos (using youtube_player_flutter package , so user can open videos inside app with out open youtube web page,just to improve UX )
 
 
-![Screenshot_1628862342](https://user-images.githubusercontent.com/86740818/129376530-eb00aa18-fa05-456c-b225-c74432a104b5.png)
-![Screenshot_1628862350](https://user-images.githubusercontent.com/86740818/129376556-bf5eaf6f-911a-4f79-a2af-1e4c13556bba.png)
-![Screenshot_1628862357](https://user-images.githubusercontent.com/86740818/129376611-0768712e-c5aa-4ca5-bf82-8bebb23f67b8.png)
-![Screenshot_1628866685](https://user-images.githubusercontent.com/86740818/129376651-558b6854-95a5-45f7-8544-05d93e1475cf.png)
+![Screenshot_1628867004](https://user-images.githubusercontent.com/86740818/129377537-8bb342fe-f856-481c-bc6f-ca79f5017611.png)
+![Screenshot_1628866999](https://user-images.githubusercontent.com/86740818/129377543-15ce3c4f-6e93-45d7-a107-a619857647eb.png)
+![Screenshot_1628866994](https://user-images.githubusercontent.com/86740818/129377549-0fa92c3f-aaba-413f-9104-89534c80acec.png)
+![Screenshot_1628866980](https://user-images.githubusercontent.com/86740818/129377569-090eb38f-ae2b-4f97-924d-b97efaef04af.png)
+
