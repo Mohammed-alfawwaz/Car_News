@@ -1,16 +1,24 @@
-# car_news_ecommerce
+# Car_News
+App Name : Cars (News - Gallery)
 
-A new Flutter project.
 
-## Getting Started
+Name : Mohammed alfawwaz
+<br/>
+Email: malfawwaz.c@gmail.com
+<br/>
+phone : +966-501213535
 
-This project is a starting point for a Flutter application.
+Description:
+Car (News - gallery) is an application for hobbyists and those interested in the latest cars news
 
-A few resources to get you started if this is your first Flutter project:
+1- gallery with prices & rating (in feature i thinking to converting this app to e-commerce app (buy & sell) cars ).
+2- latest cars news
+3- videos (using youtube_player_flutter package , so user can open videos inside app with out open youtube web page,just to improve UX )
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot_1628867004](https://user-images.githubusercontent.com/86740818/129377705-3ad31ae1-e3ce-424d-8251-0208ad23b08f.png)
+![Screenshot_1628866994](https://user-images.githubusercontent.com/86740818/129377726-646aa6c1-05f9-4fbd-bae9-c5b6402f23f8.png)
+![Screenshot_1628866999](https://user-images.githubusercontent.com/86740818/129377739-d1748d80-50c5-4fcc-a534-f047ec26cb2f.png)
+![Screenshot_1628866980](https://user-images.githubusercontent.com/86740818/129377752-ae704b41-58e7-4d5c-a5cc-283948604b1d.png)
+
+
