@@ -3,7 +3,7 @@ import 'package:car_news_ecommerce/components/custom-nav-bar.dart';
 import 'package:flutter/material.dart';
 import 'package:car_news_ecommerce/Views/CarGallary/CarGallary.dart';
 import '../News/News.dart';
-import '../Chart/Chart.dart';
+//import '../Chart/Chart.dart';
 import '../Videos/Videos.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -12,7 +12,11 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final _pageOption = [CarGallary(), News(), Videos(), Chart()];
+  final _pageOption = [
+    CarGallary(),
+    News(),
+    Videos(),
+  ];
   int _indexPage = 0;
 
   @override

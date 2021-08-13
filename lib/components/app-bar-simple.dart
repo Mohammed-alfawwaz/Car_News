@@ -3,11 +3,11 @@ import 'dart:io' show Platform;
 
 class AppBarSimple extends StatelessWidget with PreferredSizeWidget {
   final String title;
-  AppBarSimple({this.title = 'Car (News & E-Commerce)'});
+  AppBarSimple({this.title = 'Car (News & Gallery)'});
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      backgroundColor: Platform.isIOS ? Colors.amber : Colors.redAccent,
+      backgroundColor: Platform.isIOS ? Colors.amber : Colors.amber,
       title: Text(
         title,
         style: TextStyle(

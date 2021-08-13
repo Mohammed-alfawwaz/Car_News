@@ -10,13 +10,13 @@ class CardNews extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 100,
-      child: Card(
-          color: Colors.white,
-          elevation: 10,
-          child: ElevatedButton(
-              style: ElevatedButton.styleFrom(
-                  primary: Colors.white, padding: EdgeInsets.all(3)),
+        height: 100,
+        child: ElevatedButton(
+            style: ElevatedButton.styleFrom(
+                primary: Colors.white, padding: EdgeInsets.all(3)),
+            child: Card(
+              clipBehavior: Clip.antiAliasWithSaveLayer,
+              elevation: 6,
               child: Row(
                 children: [
                   Expanded(
@@ -35,9 +35,10 @@ class CardNews extends StatelessWidget {
                       ),
                     ),
                   ),
-                  SizedBox(width: 3),
+                  SizedBox(width: 1),
                   Expanded(
                     child: Container(
+                      clipBehavior: Clip.none,
                       child: Image.asset(
                         news.img,
                         fit: BoxFit.fill,
@@ -47,9 +48,9 @@ class CardNews extends StatelessWidget {
                   )
                 ],
               ),
-              onPressed: () =>
-                  _handelUrlBouttonPress(context, news.url, news.title))),
-    );
+            ),
+            onPressed: () =>
+                _handelUrlBouttonPress(context, news.url, news.title)));
   }
 }
 

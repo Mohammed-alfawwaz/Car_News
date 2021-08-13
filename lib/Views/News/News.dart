@@ -7,7 +7,7 @@ class News extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.white,
         body: ListView.builder(
             itemCount: ControllerNews.newsItemsCount,
             itemBuilder: (context, index) {

@@ -9,15 +9,15 @@ class NavigationBarCurve extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CurvedNavigationBar(
-        color: Colors.redAccent,
-        backgroundColor: Colors.black,
+        color: Colors.indigo,
+        backgroundColor: Colors.white,
         items: [
           (Icon(
             Icons.car_repair,
+            color: Colors.amber,
           )),
-          (Icon(Icons.article)),
-          (Icon(Icons.live_tv)),
-          (Icon(Icons.graphic_eq))
+          (Icon(Icons.article, color: Colors.amber)),
+          (Icon(Icons.live_tv, color: Colors.amber)),
         ],
         height: 46,
         index: indexPage,

@@ -17,13 +17,13 @@ class ControllerCar {
     ModelCar(img: 'assets/images/11.jpg', price: 13000),
     ModelCar(img: 'assets/images/12.jpg', price: 2000),
     ModelCar(img: 'assets/images/13.jpg', price: 45000),
-    ModelCar(img: 'assets/images/14.jpg', price: 220000),
+    ModelCar(img: 'assets/images/14.jpg', price: 22000),
     ModelCar(img: 'assets/images/15.jpg', price: 10000),
     ModelCar(img: 'assets/images/10.jpg', price: 15000),
     ModelCar(img: 'assets/images/17.jpg', price: 16000),
     ModelCar(img: 'assets/images/18.jpg', price: 17000),
     ModelCar(img: 'assets/images/19.jpg', price: 18000),
-    ModelCar(img: 'assets/images/20.jpg', price: 200000),
+    ModelCar(img: 'assets/images/20.jpg', price: 20000),
   ];
   static UnmodifiableListView<ModelCar> get carData =>
       UnmodifiableListView(_carList);

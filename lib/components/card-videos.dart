@@ -9,11 +9,13 @@ class CardVideos extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Column(
-        children: [
-          Card(
-            margin: EdgeInsets.all(8),
-            child: YoutubePlayer(
+      child: Card(
+        clipBehavior: Clip.antiAliasWithSaveLayer,
+        elevation: 4,
+        margin: EdgeInsets.all(5),
+        child: Column(
+          children: [
+            YoutubePlayer(
               controller: YoutubePlayerController(
                   initialVideoId: videos.url,
                   flags: YoutubePlayerFlags(
@@ -24,21 +26,19 @@ class CardVideos extends StatelessWidget {
               progressColors: ProgressBarColors(
                   playedColor: Colors.blue, handleColor: Colors.blueAccent),
             ),
-          ),
-          Text(
-            videos.desc,
-            textAlign: TextAlign.center,
-            style: TextStyle(
-                color: Colors.redAccent,
-                fontWeight: FontWeight.w400,
-                fontSize: 15,
-                fontStyle: FontStyle.italic,
-                fontFamily: 'DancingScript'),
-          ),
-          SizedBox(
-            height: 7,
-          )
-        ],
+            Text(
+              videos.desc,
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                  color: Colors.black,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 12,
+                  fontStyle: FontStyle.normal,
+                  fontFamily: 'DancingScript'),
+            ),
+            SizedBox(height: 10),
+          ],
+        ),
       ),
     );
   }
