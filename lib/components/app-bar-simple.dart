@@ -3,7 +3,7 @@ import 'dart:io' show Platform;
 
 class AppBarSimple extends StatelessWidget with PreferredSizeWidget {
   final String title;
-  AppBarSimple({this.title = 'Car (News & Gallery)'});
+  AppBarSimple({this.title = 'Top Gear'});
   @override
   Widget build(BuildContext context) {
     return AppBar(

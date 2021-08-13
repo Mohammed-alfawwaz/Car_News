@@ -10,6 +10,7 @@ class CarsGrid extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: Card(
+        clipBehavior: Clip.antiAliasWithSaveLayer,
         elevation: 12,
         child: Column(
           children: [
