@@ -10,9 +10,7 @@ class CardVideos extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Card(
-        clipBehavior: Clip.antiAliasWithSaveLayer,
-        elevation: 4,
-        margin: EdgeInsets.all(5),
+        elevation: 5,
         child: Column(
           children: [
             YoutubePlayer(
@@ -33,10 +31,12 @@ class CardVideos extends StatelessWidget {
                   color: Colors.black,
                   fontWeight: FontWeight.bold,
                   fontSize: 12,
-                  fontStyle: FontStyle.normal,
+                  // fontStyle: FontStyle.normal,
                   fontFamily: 'DancingScript'),
             ),
-            SizedBox(height: 10),
+            SizedBox(
+              height: 12,
+            )
           ],
         ),
       ),
