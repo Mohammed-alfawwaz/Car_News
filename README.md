@@ -1,9 +1,10 @@
 # Car_News
 App Name : Cars (News - Gallery)
+<br/>
 ![IMG_7532](https://user-images.githubusercontent.com/86740818/129941313-588fd46c-9fcf-4e43-b18b-55bc1335058f.JPG)
 
 
-
+<br/>
 
 
 
