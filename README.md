@@ -1,6 +1,7 @@
 # Car_News
 App Name : Cars (News - Gallery)
-![IMG_7532](https://user-images.githubusercontent.com/86740818/129940867-8d7568d3-aa6e-488e-bdc1-af0453fb6d40.JPG)
+![IMG_7532](https://user-images.githubusercontent.com/86740818/129941313-588fd46c-9fcf-4e43-b18b-55bc1335058f.JPG)
+
 
 
 Name : Mohammed alfawwaz
